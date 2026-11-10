@@ -1,0 +1,114 @@
+{
+  "calibrated": true,
+  "click_mode": "physical",
+  "controls": {
+    "plus": {
+      "window": {
+        "title": "微信"
+      },
+      "child": {
+        "title": "快捷操作",
+        "control_type": "Button"
+      }
+    },
+    "add_friend": {
+      "window": {
+        "title": "Weixin"
+      },
+      "child": {
+        "title": "添加朋友",
+        "control_type": "ListItem"
+      }
+    },
+    "search_input": {
+      "window": {
+        "title": "添加朋友"
+      },
+      "child": {
+        "control_type": "Edit"
+      }
+    },
+    "search_button": {
+      "window": {
+        "title": "添加朋友"
+      },
+      "child": {
+        "title": "搜索",
+        "control_type": "Button"
+      }
+    },
+    "not_found": {
+      "window": {
+        "title": "添加朋友"
+      },
+      "child": {
+        "title_re": "无法找到该用户",
+        "control_type": "Text"
+      }
+    },
+    "already_friend": {
+      "window": {
+        "title": "添加朋友"
+      },
+      "child": {
+        "title": "发消息",
+        "control_type": "Button"
+      }
+    },
+    "add_contact": {
+      "window": {
+        "title": "添加朋友"
+      },
+      "child": {
+        "auto_id": "content_v_view.ProfileActionUi.add_friend_button",
+        "control_type": "Button"
+      }
+    },
+    "message": {
+      "window": {
+        "title": "申请添加朋友"
+      },
+      "child": {
+        "control_type": "Edit"
+      },
+      "expected_count": 2,
+      "index": 0
+    },
+    "submit": {
+      "window": {
+        "title": "申请添加朋友"
+      },
+      "child": {
+        "title": "确定",
+        "control_type": "Button"
+      }
+    },
+    "sent": {
+      "window": {
+        "title": "添加朋友"
+      },
+      "child": {
+        "title": "等待验证",
+        "control_type": "Button"
+      }
+    },
+    "close_search": {
+      "window": {
+        "title": "添加朋友"
+      },
+      "child": {
+        "title": "关闭",
+        "control_type": "Button"
+      }
+    },
+    "restricted": {
+      "window": {
+        "title_re": "添加朋友|申请添加朋友|微信"
+      },
+      "child": {
+        "title_re": "操作过于频繁|操作频繁|安全验证|验证码",
+        "control_type": "Text"
+      }
+    }
+  }
+}
